@@ -1,0 +1,10 @@
+name: RamdomDamageSlotClear
+version: ${project.version}
+main: net.neednot.RandomDamageSlotClear
+api-version: 1.16
+description: Clears a random inventory slot when you take damage
+commands:
+  RSC:
+    description: Start the plugin to play
+    usage: /<command> <start/stop>
+    permission: RSC.toggle
