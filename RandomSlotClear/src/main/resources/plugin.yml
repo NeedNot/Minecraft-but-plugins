@@ -1,0 +1,10 @@
+name: RamdomSlotClear
+version: ${project.version}
+main: net.neednot.RandomSlotClear
+api-version: 1.16
+description: Clears a random inventory slot every minute
+commands:
+  RSC:
+    description: Start the plugin to play
+    usage: /<command> <start/stop>
+    permission: RSC.toggle
